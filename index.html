@@ -10,12 +10,14 @@
     <div class="container">
         <h1 class="heading">Real-Time Character Counter</h1>
 
-        <textarea placeholder="Write Your Text Here" name="text" id="text"></textarea>
+        <textarea maxlength="50" placeholder="Write Your Text Here" name="text" id="text"></textarea>
 
         <div class="show">
-            <p class="total">Total Characters: 50</p>
-            <p class="remain">Remaining: 0</p> 
+            <p class="total">Total Characters: <span class="tc">0</span></p>
+            <p class="remain">Remaining: <span class="r">50</span></p> 
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
